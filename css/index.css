@@ -13,7 +13,104 @@
 
 /* ========main========= */
 
-.flex-box {
+
+header {
+    background-color: black;
+    height: 60px;
+    background: url(../images/header.jpg) no-repeat;
+    background-size: cover;
+    height: 440px;
+}
+
+h1 {
+    font-size: 0;
+}
+
+.mainmenu{
+    width: 100%;
+    background-color: black;
+}
+
+.gnb {
     display: flex;
 }
+
+.gnb > li {
+    margin-right: 60px;
+}
+
+.gnb > li > a {
+    color: white;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.gnb > li > a:hover {
+    text-decoration: underline;
+}
+
+#intro {
+    background-color: antiquewhite;
+    padding: 35px 0;
+}
+
+.flex-container {
+    display: flex;
+    margin: 30px 0;
+}
+
+
+.content-txt {
+    padding: 20px 30px;
+    font-weight: bold;
+}
+
+.content-txt > p {
+    margin-bottom: 1em;
+}
+
+#location {
+    padding: 45px 0;
+    background-color: rgb(201, 201, 201);
+}
+
+#recommend {
+    padding: 35px 0 10px;
+    background-color:antiquewhite;
+}
+
+#recommend .content-txt {
+    padding: 0;
+    
+}
+
+.drip-coffee {
+    color: skyblue;
+    margin-bottom: 1em;
+}
+
+.recipe > li {
+    list-style: normal;
+    list-style-position: inside;
+    margin-bottom: 0.5em;
+}
+
+.photo > .ice{
+    margin-left: 12.4%;
+    border-radius: 50%;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+}
+
+footer > h2 {
+    line-height: 100px;
+    text-align: center;
+    font-family: 'Yeon Sung';
+    color: white;
+}
+
+
 

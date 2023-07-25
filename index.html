@@ -15,61 +15,65 @@
         <nav class="mainmenu">
             <div class="container"><!--그리드 시스템-->
                 <ul class="gnb">
-                    <li><a href="#">카페소개</a></li>
-                    <li><a href="#">오시는 길</a></li>
-                    <li><a href="#">이 달의 추천</a></li>
+                    <li><a href="#intro">카페소개</a></li>
+                    <li><a href="#location">오시는 길</a></li>
+                    <li><a href="#recommend">이 달의 추천</a></li>
                 </ul>
             </div><!--container-->
         </nav>
     </header><!--header-->
-
+    
     <main>
         <section id="intro">
             <div class="container">
                 <h2>카페소개</h2>
-                <div class="flex-box">
+                <div class="flex-container">
                     <div class="photo">
                         <img src="./images/coffee.jpg" alt="coffee">
                     </div>
                     <div class="content-txt">
                         <p>영업시간 : 오전 9시 ~ 밤 10시</p>
                         <p>휴무 : 매주 수요일<small>(수요일이 공휴일일 경우 수요일 영업, 다음날 휴무)</small></p>
-                    </div> 
-                </div> <!--flex-box -->
+                    </div> <!--content-txt-->
+                </div> <!--flex-container -->
             </div> <!--container-->
         </section>
         <section id="location">
             <div class="container">
                 <h2>오시는 길</h2>
-                <div class="photo">
-                    <img src="./images/map.jpg" alt="coffee">
-                </div>
-                <div class="content-txt">
-                    <p>서귀포시 인덕면 사계리 OOOO-OOO</p>
-                    <p>제주 올레 10번 코스 산방산 근처</p>
-                </div> <!--container-->
-            </div> <!--content-txt -->
+                <div class="flex-container">
+                    <div class="photo">
+                        <img src="./images/map.jpg" alt="map">
+                    </div>
+                    <div class="content-txt">
+                        <p>서귀포시 인덕면 사계리 OOOO-OOO</p>
+                        <p>제주 올레 10번 코스 산방산 근처</p>
+                    </div> <!-- content-txt -->
+                </div> <!--flex-cotainer -->
+            </div> <!--container-->
         </section>
-        <section id="BEST-menu">
+        <section id="recommend">
             <div class="container">
                 <h2>이 달의 추천</h2>
-                <div class="photo">
-                    <img src="./images/ice.jpg" alt="coffee">
-                </div>
-                <div class="content-txt">
-                    <strong>핸드드립 아이스 커피</strong>
-                    <ol>
-                        <li>1인분 기준으로 서버에 각얼음 5조각(한 조각의 20cc)를 넣고 추출을 시작한다.</li>
-                        <li>평상시보다 원두의 양은 2배 정도(200g)와 추출액은 얼음 포함해서 200cc까지 내린다.</li>
-                        <li>아이스 잔에 얼음 6~7개 섞어서 시원하게 마신다.</li>
-                    </ol>
-                </div> <!--container-->
-            </div> <!--content-txt -->
+                <div class="flex-container">
+                    <div class="content-txt">
+                        <h3 class="drip-coffee">핸드드립 아이스 커피</h3>
+                        <ol class="recipe">
+                            <li>1인분 기준으로 서버에 각얼음 5조각(한 조각의 20cc)를 넣고 추출을 시작한다.</li>
+                            <li>평상시보다 원두의 양은 2배 정도(200g)와 추출액은 얼음 포함해서 200cc까지 내린다.</li>
+                            <li>아이스 잔에 얼음 6~7개 섞어서 시원하게 마신다.</li>
+                        </ol>
+                    </div> 
+                    <div class="photo">
+                        <img class="ice" src="./images/ice.jpg" alt="ice">
+                    </div>
+                </div> <!--flex-container-->
+            </div><!--container-->
         </section>
     </main> <!--main-->
 
     <footer>
-
+        <h2>My times with coffee</h2>
     </footer> <!--footer-->
 </body>
 </html>
